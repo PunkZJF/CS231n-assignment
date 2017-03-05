@@ -5,9 +5,9 @@ date: 2016-12-03
 """
 import numpy as np
 
-from layers import *
-from fast_layers import *
-from layer_utils import *
+from cs231n.layers import *
+from cs231n.fast_layers import *
+from cs231n.layer_utils import *
 class ThreeLayerConvNet(object):
   """
   A three-layer convolutional network with the following architecture:
